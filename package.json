@@ -1,0 +1,25 @@
+{
+  "name": "logseq-retro-dreams",
+  "version": "0.0.1",
+  "description": "A Retro Futuristic Logseq theme with some synthwave vibes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iampbernardo/Logseq-Retro-Dreams.git"
+  },
+  "keywords": [
+    "logseq",
+    "theme",
+    "css",
+    "logseq"
+  ],
+  "author": "Pablo Bernardo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iampbernardo/Logseq-Retro-Dreams/issues"
+  },
+  "homepage": "https://github.com/iampbernardo/Logseq-Retro-Dreams#readme"
+}
