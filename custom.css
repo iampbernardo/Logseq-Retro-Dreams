@@ -1,0 +1,65 @@
+:root {
+    --theme-main-bg-color: #40265c;
+    --theme-active-bg-color: #9e2281;
+    --theme-light-text-color: #f6eddb;
+    --theme-heavy-light-text-color: #ffffff;
+  }
+  
+  /** -- Common styles -- */
+  
+  .cp__header,
+  .cp__right-sidebar-topbar {
+    background-color: var(--theme-main-bg-color);
+    --ls-header-button-background: var(--theme-light-text-color);
+    box-shadow: 0 1px 0 0 rgba(255,255,255,0.1)
+  }
+  
+  .left-sidebar-inner,
+  .left-sidebar-inner,
+  .left-sidebar-inner{
+    --ls-secondary-background-color: var(--theme-main-bg-color);
+  }
+  .left-sidebar-inner a.item.active, 
+  .left-sidebar-inner a.item:active {
+    background-color: var(--theme-active-bg-color);
+    color: var(--theme-heavy-light-text-color);
+  }
+  
+  .cp__sidebar-left-layout a,
+  .cp__sidebar-left-layout {
+    color: var(--theme-light-text-color);
+  }
+  
+  .cp__right-sidebar-scrollable {
+    background-color: #1b1e23!important;
+  }
+  
+  /** -- Light theme -- **/
+  .white-theme,
+  .light-theme,
+  html[data-theme='light'] {
+    --ls-tertiary-background-color: var(--theme-active-bg-color);
+    --ls-secondary-background-color: var(--theme-light-text-color);
+  }
+  
+  .light-theme .cp__header,
+  .light-theme .cp__right-sidebar-topbar,
+  html[data-theme='light'] .cp__header,
+  html[data-theme='light'] .cp__right-sidebar-topbar{
+    background-color: var(--theme-main-bg-color);
+    --ls-header-button-background: var(--theme-light-text-color);
+  }
+  
+  .light-theme .cp__header a,
+  html[data-theme=light] .cp__header a {
+    color: var(--theme-light-text-color);
+  }
+  
+  
+  /** -- Dark theme -- */
+  
+  .dark-theme,
+  html[data-theme='dark'] {
+    --ls-header-button-background: var(--theme-light-text-color);
+    --ls-tertiary-background-color: var(--theme-active-bg-color);
+  }
